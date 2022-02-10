@@ -8,8 +8,16 @@
 
 main{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     background-color: rgb(87, 151, 177);
+}
+
+.botones{
+   width: 300px;
+}
+
+p{
+    font-size: 1.5em;
 }
