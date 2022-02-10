@@ -18,7 +18,8 @@ function obtenerBotones(){
 
 
 function noCaracteristica(){
-    window.open("ventanas/no-caracteristica.html","sin-características","");
+   const a =  window.open("ventanas/no-caracteristica.html","sin-características","");
+   console.log(a);
 }
 
 function conCaracteristica(){
