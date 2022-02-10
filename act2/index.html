@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <main>
+
+            <article class="superior">
+                <h2>Contenedor Superior</h2>
+                <p>Escribe un texto, elige el contenedor y pulsa el boton para que se escriba el texto dentro del contenedor</p>
+                <input type="text"  maxlength="40" class="salida">
+                <div class="labels">
+                    <label>
+                        Contenedor Izquierdo
+                        <input type="radio" name="contenedor" value="izquierdo">
+                    </label>
+                        
+                    <label>
+                        Contenedor derecho
+                        <input type="radio" name="contenedor" value="derecho">
+                    </label>
+
+                </div>
+                <div class="botones">
+                    <button class="escribir">Escribir</button>
+                    <button class="reiniciar">Reiniciar</button>
+                </div>
+            </article>
+            <article class="inferior">
+                <section class="izquierdo">
+                    <h2>Contenedor izquierdo</h2>
+                    <p class="salida"></p>
+                </section>
+                <section class="derecho">
+                    <h2>Contenedor derecho</h2>
+                    <button class="nombre">¿Cómo se llaman los contenedores?</button>
+                    <p class="salida"></p>
+                </section>
+            </article>
+        </main>
+    </div>
+</body>
+</html>

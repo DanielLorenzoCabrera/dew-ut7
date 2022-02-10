@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+button{
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    background-color: rgb(87, 151, 177);
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 50vh;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1em;
+}
+
+.superior{
+    display: flex;
+    flex-flow: column nowrap;
+    outline: .1em solid white;
+    flex: 1;
+    padding: 1em;
+}
+
+.superior > *{
+    margin: .5em 0;
+}
+
+
+input{
+    padding: 1em 0;
+    text-align: center;
+    
+}
+
+.labels{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.botones{
+    margin: .5em auto;
+}
+
+.botones button{
+    padding: .5em ;
+}
+
+.inferior{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+.izquierdo{
+    outline: .1em solid white;
+
+    flex: 1;
+    text-align: center;
+}
+
+.derecho{
+    flex: 1;
+    text-align: center;
+    outline: .1em solid white;
+
+}
+
+
+h2{
+    margin: .5em 0;
+    text-align: center;
+}
+
+p.salida{
+    margin: 1em 0;
+}
