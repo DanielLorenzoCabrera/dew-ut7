@@ -15,7 +15,6 @@ function obtenerBotones(){
 const ventanas = [];
 
 
-
 function noCaracteristica(){
     let veces = this.className === 'no-caracteristicas-una' ? 1 : 5;
     for(let i = 0; i < veces; i++){
@@ -37,7 +36,6 @@ function pantallaCompleta(){
 }
 
 function cerrarTodo(){
-    console.log(ventanas)
     ventanas.forEach(ventana=>{
         ventana.close();
     })
