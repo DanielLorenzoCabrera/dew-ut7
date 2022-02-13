@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+body{
+    background-color: rgb(87, 151, 177);
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    margin: 1em 0;
+    background-color: #fff;
+}
+
+img{
+    transition: all .3s;
+    margin: 0 1em;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.wrapper > img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    margin: 0 2em;
+}
+
+
+.visualizer{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(163, 245, 240, 0.879);
+    position: fixed;
+    top: 0;
+    text-align: end;
+    display: flex;
+    flex-flow: column nowrap;
+    display: none;
+    
+}
+
+.visualizer p {
+    
+    font-size: 3em;
+    background-color: white;
+    display: inline-block;
+    padding: 0 .3em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.visualizer p:hover {
+    background-color: #000;
+    color: #fff;
+    
+}
+
+.visualizer figure{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.visualizer img{
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #fff;
+}
+
+.cabecera{
+    padding: 1em;
+}
